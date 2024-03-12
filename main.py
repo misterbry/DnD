@@ -1,3 +1,7 @@
+######################################
+#### DnD: The Lone Wolf Campaigns ####
+######################################
+
 import character
 import os
 from time import sleep
@@ -28,10 +32,10 @@ def new_character():
     os.system('tput cnorm')
 
 def new_campaign():
-    pass
+    print("New Campaign")
 
 def view_character():
-    pass
+    print("View Character")
 
 def view_campaign():
     pass

@@ -2,7 +2,7 @@ import random
 
 class DnDCharacter:
     races = ["Human", "Dragonborn", "Gnome", "Plasmiod", "Half-Elf", "Half-Orc", "Tiefling", "Elf", "Dwarf", "Halfling"]
-    classes = ["Fighter", "Artificer", "Barbarian", "Bard", "Blood Hunter", "Cleric", "Druid", "Monk", "Palidin", "Ranger", "Rouge", "Sorcerer", "warlock", "Wizard"]
+    classes = ["Fighter", "Artificer", "Barbarian", "Bard", "Blood Hunter", "Cleric", "Druid", "Monk", "Palidin", "Ranger", "Rouge", "Sorcerer", "Warlock", "Wizard"]
 
     def __init__(self):
         self.name = self.generate_name()
